@@ -2,7 +2,7 @@ const daysEle=document.getElementById("days");
 const hoursEle=document.getElementById("hours");
 const minutesEle=document.getElementById("minutes");
 const secondsEle=document.getElementById("seconds"); 
-const newYears='1 Jan 2025';
+const newYears='1 Jan 2026';
 function countDown(){
     const newYearsDate=new Date(newYears);
     const currentDate=new Date();
